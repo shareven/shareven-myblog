@@ -30,20 +30,26 @@ module.exports = {
   css: [
     '~/assets/style/app.styl'
   ],
-
+  router:{
+    middleware:'i18n'
+  },
   /*
   ** Plugins to load before mounting the App
   */
   plugins: [
-    '@/plugins/vuetify'
+    '@/plugins/vuetify',
+    '@/plugins/i18n'
   ],
 
   /*
   ** Nuxt.js modules
   */
   modules: [
+    '@nuxtjs/axios',
   ],
-
+generate:{
+  routes:['/','/cn','/en']
+},
   /*
   ** Build configuration
   */
