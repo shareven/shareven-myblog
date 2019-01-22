@@ -48,6 +48,7 @@ module.exports = {
     '@nuxtjs/axios',
   ],
 generate:{
+  dir:'docs',
   routes:['/','/cn','/en']
 },
   /*
