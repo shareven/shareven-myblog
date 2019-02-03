@@ -49,7 +49,7 @@ module.exports = {
     '@nuxtjs/axios',
   ],
 generate:{
-  dir:'docs',
+  dir:'shareven.github.io',
   routes:['/','/cn','/en']
 },
   /*
