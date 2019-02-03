@@ -16,9 +16,12 @@
             <em><small>&mdash; Steve McConnell</small></em>
           </div>
           <hr class="my-3">
-          <div class="text-center">
+          <div class="text-center links">
   
             <nuxt-link to="wedding">婚礼记录</nuxt-link>
+            <br>
+            <br>
+            <nuxt-link to="videos">观看视频</nuxt-link>
             <br>
             <br>
             <a href="https://www.zhihu.com/people/dadiandi/activities" target="_blank">{{$t('home.zhihu')}}</a>
@@ -53,6 +56,9 @@
 <style scoped>
 .text-center{
   text-align: center;
+}
+.links a{
+  color:#aaa;
 }
 @media screen and (max-width: 786px) {
   .hidden-xs{
