@@ -75,6 +75,11 @@
             to: '/wedding'
           },
           {
+            icon: 'event',
+            title: 'videos',
+            to: '/videos'
+          },
+          {
             icon: 'business',
             title: 'Inspire',
             to: '/inspire'
