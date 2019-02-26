@@ -1,7 +1,8 @@
 {
-  "name": "shareven-myblog",
+  "name": "shareven-blog",
   "version": "1.0.0",
-  "description": "My posh Nuxt.js project",
+  "description": "welcome to shareven blog, This is a place to share technology.",
+  "keyword": "shareven,blog,share technology",
   "author": "shareven",
   "private": true,
   "scripts": {

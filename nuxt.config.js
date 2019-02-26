@@ -11,6 +11,7 @@ module.exports = {
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { hid: 'keywords', name: 'keywords', content: pkg.keyword },
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
