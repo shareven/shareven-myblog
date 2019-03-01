@@ -1,6 +1,6 @@
 # shareven-myblog
 
-> My posh Nuxt.js project
+> My blog project use nuxt.js
 
 ## Build Setup
 
