@@ -2,7 +2,8 @@
   <img
     class="VuetifyLogo"
     alt="Vuetify Logo"
-    src="../static/head.jpeg">
+    src="/head.jpeg"
+  >
 </template>
 
 <style>
